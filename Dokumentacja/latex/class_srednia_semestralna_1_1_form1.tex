@@ -1,0 +1,510 @@
+\doxysection{Dokumentacja klasy Srednia\+Semestralna.\+Form1}
+\label{class_srednia_semestralna_1_1_form1}\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+Diagram dziedziczenia dla Srednia\+Semestralna.\+Form1\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_srednia_semestralna_1_1_form1}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Form1} ()
+\item 
+double \textbf{ count\+Subjects\+Test} ()
+\begin{DoxyCompactList}\small\item\em Metoda {\ttfamily \doxyref{count\+Subjects\+Test()}{str.}{class_srednia_semestralna_1_1_form1_a41134436d1b4cbdb99ec0ec60f19a066}} jest testem jednostkowym sprawdzajacym działanie radiobuttonów w groupboxach \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Metody chronione}
+\begin{DoxyCompactItemize}
+\item 
+override void \textbf{ Dispose} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+double \textbf{ count\+Subjects} (double input)
+\begin{DoxyCompactList}\small\item\em Metoda {\ttfamily count\+Subjects} poszukuje groupboxy i czy zaznaczone w nich radiobuttony \end{DoxyCompactList}\item 
+void \textbf{ make\+Me} ()
+\begin{DoxyCompactList}\small\item\em Metoda {\ttfamily make\+Me} pobiera przedmioty z pliku przedmioty.\+txt zamienia przecinki i tworzy listę \end{DoxyCompactList}\item 
+void \textbf{ subject\+Creation} (string przedmiot)
+\begin{DoxyCompactList}\small\item\em Metoda {\ttfamily subject\+Creation} pobrane przedmioty rozmieszcza w groupboxie i tworzy radiobuttony z wszystkimi możliwymi ocenami \{2, 3, 3.\+5, 4, 4.\+5, 5\}. Groupboxy są rozmieszczane w wyznaczonych miejscach z odstępem w 5 pikseli. \end{DoxyCompactList}\item 
+void \textbf{ group\+Box\+\_\+\+Enter} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em {\ttfamily group\+Box\+\_\+\+Enter} robi niewidocznymi przycisk i groupbox z radiobuttonami \end{DoxyCompactList}\item 
+void \textbf{ button\+Sum\+\_\+\+Click} (object sender, Event\+Args e)
+\item 
+void \textbf{ button\+Press\+Me\+\_\+\+Click} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Metoda {\ttfamily button\+Press\+Me\+\_\+\+Click} przy pierwszym kliknięciu wykonuje metode make\+Me, co spowoduje do wykonania powyższych metod. więc przy kliknięciu {\ttfamily button\+Press\+Me\+\_\+\+Click} pobiera się lista przedmiotów i tworzy się interface z groupboxów. \end{DoxyCompactList}\item 
+void \textbf{ text\+Box\+Average\+\_\+\+Text\+Changed} (object sender, Event\+Args e)
+\item 
+void \textbf{ text\+Box\+Points\+\_\+\+Text\+Changed} (object sender, Event\+Args e)
+\item 
+void \textbf{ text\+Box1\+\_\+\+Text\+Changed} (object sender, Event\+Args e)
+\item 
+void \textbf{ label4\+\_\+\+Click} (object sender, Event\+Args e)
+\item 
+void \textbf{ label10\+\_\+\+Click} (object sender, Event\+Args e)
+\item 
+void \textbf{ group\+Box1\+\_\+\+Enter} (object sender, Event\+Args e)
+\item 
+void \textbf{ radio\+Button1\+\_\+\+Checked\+Changed} (object sender, Event\+Args e)
+\item 
+void \textbf{ text\+Box2\+\_\+\+Text\+Changed} (object sender, Event\+Args e)
+\item 
+void \textbf{ Initialize\+Component} ()
+\begin{DoxyCompactList}\small\item\em Required method for Designer support -\/ do not modify the contents of this method with the code editor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+bool \textbf{ first\+Time} = true
+\begin{DoxyCompactList}\small\item\em {\ttfamily first\+Time} jest potrzebna dla tego, żeby wiedziećczy przyciszk {\ttfamily button\+Press\+Me\+\_\+\+Click} jest wkliknięty pierwszy czy poszczególny raz \end{DoxyCompactList}\item 
+int \textbf{ x} = 0
+\begin{DoxyCompactList}\small\item\em zmienna x potrzebna dla rozmieszczenia położenia w przestrzeni. Zwykła koordynata x w przestrzeni x,y. \end{DoxyCompactList}\item 
+int \textbf{ pad} = 5
+\begin{DoxyCompactList}\small\item\em pad to odstęp między groupboxami z przedmiotami i ocenami. \end{DoxyCompactList}\item 
+double \textbf{ how\+Meany} = 0
+\begin{DoxyCompactList}\small\item\em zmianna potrzebna do przechowywania informacji ile przedmiotów jest wpisane do programu. Wykorzystuje się w obliczeniu średniej. Ta liczba jest mianownikiem w obliczeniu średniej. \end{DoxyCompactList}\item 
+System.\+Component\+Model.\+IContainer \textbf{ components} = null
+\begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
+System.\+Windows.\+Forms.\+Button \textbf{ button\+Sum}
+\item 
+System.\+Windows.\+Forms.\+Group\+Box \textbf{ group\+Box}
+\item 
+System.\+Windows.\+Forms.\+Button \textbf{ button\+Press\+Me}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label1}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label2}
+\item 
+System.\+Windows.\+Forms.\+Text\+Box \textbf{ text\+Box\+Points}
+\item 
+System.\+Windows.\+Forms.\+Text\+Box \textbf{ text\+Box\+Average}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button5\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button45\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button4\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button35\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button3\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button25\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Radio\+Button \textbf{ radio\+Button2\+Przedmiot}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label3}
+\item 
+System.\+Windows.\+Forms.\+Text\+Box \textbf{ text\+Box1}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label8}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label7}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label6}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label12}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label11}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label10}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label9}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label5}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label13}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label4}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label14}
+\item 
+System.\+Windows.\+Forms.\+Text\+Box \textbf{ text\+Box2}
+\item 
+System.\+Windows.\+Forms.\+Label \textbf{ label15}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_srednia_semestralna_1_1_form1_a32c5ffb42aa9204c533afadbc8782156}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!Form1@{Form1}}
+\index{Form1@{Form1}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{Form1()}
+{\footnotesize\ttfamily Srednia\+Semestralna.\+Form1.\+Form1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_srednia_semestralna_1_1_form1_a5fe42197f5617f76aed4a8a50c3085d4}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!buttonPressMe\_Click@{buttonPressMe\_Click}}
+\index{buttonPressMe\_Click@{buttonPressMe\_Click}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{buttonPressMe\_Click()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+button\+Press\+Me\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Metoda {\ttfamily button\+Press\+Me\+\_\+\+Click} przy pierwszym kliknięciu wykonuje metode make\+Me, co spowoduje do wykonania powyższych metod. więc przy kliknięciu {\ttfamily button\+Press\+Me\+\_\+\+Click} pobiera się lista przedmiotów i tworzy się interface z groupboxów. 
+
+Przy drugim kliknięciu {\ttfamily button\+Press\+Me\+\_\+\+Click} oblicza średnią za semestr oraz ilość punktów do stypendium.
+
+Na każdym z etapów można przepisać dodatkowe punkty, kolejność ich wpisania nie ma żadnego znaczenia.\mbox{\label{class_srednia_semestralna_1_1_form1_ab6885dae8a3723c2fa2573c91a4cc8a9}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!buttonSum\_Click@{buttonSum\_Click}}
+\index{buttonSum\_Click@{buttonSum\_Click}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{buttonSum\_Click()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+button\+Sum\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_aa6f967b7fe98b57202628292150090fe}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!countSubjects@{countSubjects}}
+\index{countSubjects@{countSubjects}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{countSubjects()}
+{\footnotesize\ttfamily double Srednia\+Semestralna.\+Form1.\+count\+Subjects (\begin{DoxyParamCaption}\item[{double}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Metoda {\ttfamily count\+Subjects} poszukuje groupboxy i czy zaznaczone w nich radiobuttony 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a41134436d1b4cbdb99ec0ec60f19a066}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!countSubjectsTest@{countSubjectsTest}}
+\index{countSubjectsTest@{countSubjectsTest}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{countSubjectsTest()}
+{\footnotesize\ttfamily double Srednia\+Semestralna.\+Form1.\+count\+Subjects\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda {\ttfamily \doxyref{count\+Subjects\+Test()}{str.}{class_srednia_semestralna_1_1_form1_a41134436d1b4cbdb99ec0ec60f19a066}} jest testem jednostkowym sprawdzajacym działanie radiobuttonów w groupboxach 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a8deb129826b755d5fbece0b6f920a54e}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{Dispose()}
+{\footnotesize\ttfamily override void Srednia\+Semestralna.\+Form1.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_srednia_semestralna_1_1_form1_a8bbac943109ddee98a2f8e0948d8ea7c}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!groupBox1\_Enter@{groupBox1\_Enter}}
+\index{groupBox1\_Enter@{groupBox1\_Enter}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{groupBox1\_Enter()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+group\+Box1\+\_\+\+Enter (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_abad9c0fe72dfd32410b120750f5da4ab}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!groupBox\_Enter@{groupBox\_Enter}}
+\index{groupBox\_Enter@{groupBox\_Enter}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{groupBox\_Enter()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+group\+Box\+\_\+\+Enter (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+{\ttfamily group\+Box\+\_\+\+Enter} robi niewidocznymi przycisk i groupbox z radiobuttonami 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_ad660b0199fd27f220c3d61e381efe335}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{InitializeComponent()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required method for Designer support -\/ do not modify the contents of this method with the code editor. 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_ae6c94fa0bda6358f803368ed6946bf24}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label10\_Click@{label10\_Click}}
+\index{label10\_Click@{label10\_Click}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label10\_Click()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+label10\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a63eecd73a6fe51888f8c9587666674af}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label4\_Click@{label4\_Click}}
+\index{label4\_Click@{label4\_Click}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label4\_Click()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+label4\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_ab0f8b3a6ef5e37f216443ebf3a18cd78}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!makeMe@{makeMe}}
+\index{makeMe@{makeMe}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{makeMe()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+make\+Me (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Metoda {\ttfamily make\+Me} pobiera przedmioty z pliku przedmioty.\+txt zamienia przecinki i tworzy listę 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a09db6746dd736d47c106d6d08cbfb3fe}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton1\_CheckedChanged@{radioButton1\_CheckedChanged}}
+\index{radioButton1\_CheckedChanged@{radioButton1\_CheckedChanged}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton1\_CheckedChanged()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+radio\+Button1\+\_\+\+Checked\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a75a661891af00f9d1d1f68a81ce6ac4c}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!subjectCreation@{subjectCreation}}
+\index{subjectCreation@{subjectCreation}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{subjectCreation()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+subject\+Creation (\begin{DoxyParamCaption}\item[{string}]{przedmiot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Metoda {\ttfamily subject\+Creation} pobrane przedmioty rozmieszcza w groupboxie i tworzy radiobuttony z wszystkimi możliwymi ocenami \{2, 3, 3.\+5, 4, 4.\+5, 5\}. Groupboxy są rozmieszczane w wyznaczonych miejscach z odstępem w 5 pikseli. 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_aa39a8278890cef7cdccbfcec0e0b3a0f}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBox1\_TextChanged@{textBox1\_TextChanged}}
+\index{textBox1\_TextChanged@{textBox1\_TextChanged}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBox1\_TextChanged()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+text\+Box1\+\_\+\+Text\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_acbddd026ba410b247d3d1a7abb0d766c}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBox2\_TextChanged@{textBox2\_TextChanged}}
+\index{textBox2\_TextChanged@{textBox2\_TextChanged}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBox2\_TextChanged()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+text\+Box2\+\_\+\+Text\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a837ba5ace6137bf30d2f192ee958a0fa}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBoxAverage\_TextChanged@{textBoxAverage\_TextChanged}}
+\index{textBoxAverage\_TextChanged@{textBoxAverage\_TextChanged}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBoxAverage\_TextChanged()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+text\+Box\+Average\+\_\+\+Text\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a3685819ac4ad239f9e42f384f4ca3093}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBoxPoints\_TextChanged@{textBoxPoints\_TextChanged}}
+\index{textBoxPoints\_TextChanged@{textBoxPoints\_TextChanged}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBoxPoints\_TextChanged()}
+{\footnotesize\ttfamily void Srednia\+Semestralna.\+Form1.\+text\+Box\+Points\+\_\+\+Text\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Dokumentacja atrybutów składowych}
+\mbox{\label{class_srednia_semestralna_1_1_form1_aedd974916ff57c2470ff115e9648a08a}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!buttonPressMe@{buttonPressMe}}
+\index{buttonPressMe@{buttonPressMe}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{buttonPressMe}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Srednia\+Semestralna.\+Form1.\+button\+Press\+Me\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a5937de9fd566bc72b5a74c3f510d52ed}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!buttonSum@{buttonSum}}
+\index{buttonSum@{buttonSum}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{buttonSum}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Srednia\+Semestralna.\+Form1.\+button\+Sum\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_aee9e98013305f0694a523db633003839}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!components@{components}}
+\index{components@{components}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{components}
+{\footnotesize\ttfamily System.\+Component\+Model.\+IContainer Srednia\+Semestralna.\+Form1.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required designer variable. 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a4c211d73d32d63d1956cbb6528b69bc1}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!firstTime@{firstTime}}
+\index{firstTime@{firstTime}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{firstTime}
+{\footnotesize\ttfamily bool Srednia\+Semestralna.\+Form1.\+first\+Time = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+{\ttfamily first\+Time} jest potrzebna dla tego, żeby wiedziećczy przyciszk {\ttfamily button\+Press\+Me\+\_\+\+Click} jest wkliknięty pierwszy czy poszczególny raz 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a7e445af583973070d02e14cae1d6fe24}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!groupBox@{groupBox}}
+\index{groupBox@{groupBox}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{groupBox}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Group\+Box Srednia\+Semestralna.\+Form1.\+group\+Box\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a238e9094adf81ba1efe9d17ebf4fea20}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!howMeany@{howMeany}}
+\index{howMeany@{howMeany}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{howMeany}
+{\footnotesize\ttfamily double Srednia\+Semestralna.\+Form1.\+how\+Meany = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+zmianna potrzebna do przechowywania informacji ile przedmiotów jest wpisane do programu. Wykorzystuje się w obliczeniu średniej. Ta liczba jest mianownikiem w obliczeniu średniej. 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_ae1475dbd75e98236845d2397c12fa6d8}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label1@{label1}}
+\index{label1@{label1}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label1}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a28192b0c9ef52ef3bf94025274cd8501}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label10@{label10}}
+\index{label10@{label10}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label10}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label10\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a7fb9c3af01c34a2102be819b8606306b}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label11@{label11}}
+\index{label11@{label11}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label11}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label11\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a4b2415f50ea74fd1a77dfd1451b782ea}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label12@{label12}}
+\index{label12@{label12}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label12}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label12\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a1f28994cb1d49bba2e5f72b6b246a9cb}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label13@{label13}}
+\index{label13@{label13}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label13}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label13\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_aae8e5bdabb7eb13fcc82c58cf5208bcf}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label14@{label14}}
+\index{label14@{label14}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label14}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label14\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a5f8b869be5cff0154e05f0b5bbf6d4ec}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label15@{label15}}
+\index{label15@{label15}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label15}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label15\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a8add3a0e4a6210d99d00fc4dae74034d}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label2@{label2}}
+\index{label2@{label2}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label2}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label2\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_ae96482038268902d9f0bd41540a924c1}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label3@{label3}}
+\index{label3@{label3}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label3}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label3\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a483f99c05334328053e1eac00d75762b}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label4@{label4}}
+\index{label4@{label4}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label4}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label4\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a8aea89e098b58204eb84b04a9741f793}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label5@{label5}}
+\index{label5@{label5}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label5}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label5\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_aad9bfd4262e2891b4101f14a19771fac}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label6@{label6}}
+\index{label6@{label6}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label6}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label6\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a06c0be9aa1b71c1c9db916ba59f9223d}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label7@{label7}}
+\index{label7@{label7}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label7}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label7\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a90dba2d5a885f5b4963e76a3bad1a744}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label8@{label8}}
+\index{label8@{label8}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label8}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label8\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a5610b6dbe03085ed01281e1eea545829}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!label9@{label9}}
+\index{label9@{label9}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{label9}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Srednia\+Semestralna.\+Form1.\+label9\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_adcd41bcc2367bcc4481d38a81374122a}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!pad@{pad}}
+\index{pad@{pad}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{pad}
+{\footnotesize\ttfamily int Srednia\+Semestralna.\+Form1.\+pad = 5\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+pad to odstęp między groupboxami z przedmiotami i ocenami. 
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a93780fe46f7ee5102a6e2f52112ffd64}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton25Przedmiot@{radioButton25Przedmiot}}
+\index{radioButton25Przedmiot@{radioButton25Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton25Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button25\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a9e84a43f7360fe1d75d7231d79d0cdeb}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton2Przedmiot@{radioButton2Przedmiot}}
+\index{radioButton2Przedmiot@{radioButton2Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton2Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button2\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a97b3f61afa3fba39d9ddde68adeae5de}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton35Przedmiot@{radioButton35Przedmiot}}
+\index{radioButton35Przedmiot@{radioButton35Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton35Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button35\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a17ce55199aad329ba4c278fca9552258}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton3Przedmiot@{radioButton3Przedmiot}}
+\index{radioButton3Przedmiot@{radioButton3Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton3Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button3\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a6b7af3b5ffb5630e891bca66455b6d71}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton45Przedmiot@{radioButton45Przedmiot}}
+\index{radioButton45Przedmiot@{radioButton45Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton45Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button45\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_add39a77edb36829d7dff2cbb901cc96e}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton4Przedmiot@{radioButton4Przedmiot}}
+\index{radioButton4Przedmiot@{radioButton4Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton4Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button4\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_aa9d333d929d2ed67d00e014df3105c41}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!radioButton5Przedmiot@{radioButton5Przedmiot}}
+\index{radioButton5Przedmiot@{radioButton5Przedmiot}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{radioButton5Przedmiot}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Radio\+Button Srednia\+Semestralna.\+Form1.\+radio\+Button5\+Przedmiot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a2dd6fcd780316ebafbfaa35ed3c263b5}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBox1@{textBox1}}
+\index{textBox1@{textBox1}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBox1}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Text\+Box Srednia\+Semestralna.\+Form1.\+text\+Box1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a3dc31ddb0eca5e1bb970779943dd181a}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBox2@{textBox2}}
+\index{textBox2@{textBox2}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBox2}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Text\+Box Srednia\+Semestralna.\+Form1.\+text\+Box2\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a0079f2bede89e280306a8537fc179b98}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBoxAverage@{textBoxAverage}}
+\index{textBoxAverage@{textBoxAverage}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBoxAverage}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Text\+Box Srednia\+Semestralna.\+Form1.\+text\+Box\+Average\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a0bc433b3dd4b7f6f3a74dd66c7204e99}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!textBoxPoints@{textBoxPoints}}
+\index{textBoxPoints@{textBoxPoints}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{textBoxPoints}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Text\+Box Srednia\+Semestralna.\+Form1.\+text\+Box\+Points\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{class_srednia_semestralna_1_1_form1_a8e8079c93cecc69ef8975cf1681be544}} 
+\index{SredniaSemestralna.Form1@{SredniaSemestralna.Form1}!x@{x}}
+\index{x@{x}!SredniaSemestralna.Form1@{SredniaSemestralna.Form1}}
+\doxysubsubsection{x}
+{\footnotesize\ttfamily int Srednia\+Semestralna.\+Form1.\+x = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+zmienna x potrzebna dla rozmieszczenia położenia w przestrzeni. Zwykła koordynata x w przestrzeni x,y. 
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/!\+WSIZ/\+Projekt/\+Kalkulator\+\_\+stypendium/\+Punkty\+Stypendium/\+Srednia\+Semestralna/\textbf{ Form1.\+cs}\item 
+F\+:/!\+WSIZ/\+Projekt/\+Kalkulator\+\_\+stypendium/\+Punkty\+Stypendium/\+Srednia\+Semestralna/\textbf{ Form1.\+Designer.\+cs}\end{DoxyCompactItemize}

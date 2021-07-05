@@ -1,0 +1,51 @@
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\TestStypendium.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\TestStypendium.pdb
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.exe
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.pdb
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.exe.config
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csprojAssemblyReference.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csproj.CoreCompileInputs.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csproj.CopyComplete
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.pdb
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\TestStypendium.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\TestStypendium.pdb
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.exe
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.pdb
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.exe.config
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csprojAssemblyReference.cache
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csproj.CoreCompileInputs.cache
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csproj.CopyComplete
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.pdb
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\TestStypendium.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\TestStypendium.pdb
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.exe
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.pdb
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\SredniaSemestralna.exe.config
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csprojAssemblyReference.cache
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csproj.CoreCompileInputs.cache
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.csproj.CopyComplete
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\TestStypendium\obj\Debug\TestStypendium.pdb

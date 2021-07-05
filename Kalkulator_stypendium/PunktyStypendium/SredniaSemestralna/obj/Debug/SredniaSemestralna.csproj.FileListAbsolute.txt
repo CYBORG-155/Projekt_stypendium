@@ -1,0 +1,49 @@
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe.config
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\bin\Debug\SredniaSemestralna.pdb
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.csprojAssemblyReference.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.Form1.resources
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.Properties.Resources.resources
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.GenerateResource.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CoreCompileInputs.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.exe
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\SredniaSemestralna\obj\Debug\SredniaSemestralna.pdb
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe.config
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.pdb
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\bin\Debug\nunit.framework.dll
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\bin\Debug\nunit.framework.xml
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csprojAssemblyReference.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.Form1.resources
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.Properties.Resources.resources
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.GenerateResource.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CoreCompileInputs.cache
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CopyComplete
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.exe
+C:\Users\ObilanCenobi\Desktop\różne projekty dla Ewci\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.pdb
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe.config
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.pdb
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\bin\Debug\nunit.framework.dll
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\bin\Debug\nunit.framework.xml
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csprojAssemblyReference.cache
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.Form1.resources
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.Properties.Resources.resources
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.GenerateResource.cache
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CoreCompileInputs.cache
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CopyComplete
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.exe
+F:\!WSIZ\Projekt\NEW\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.pdb
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe.config
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.exe
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\bin\Debug\SredniaSemestralna.pdb
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\bin\Debug\nunit.framework.dll
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\bin\Debug\nunit.framework.xml
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csprojAssemblyReference.cache
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.Form1.resources
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.Properties.Resources.resources
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.GenerateResource.cache
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CoreCompileInputs.cache
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.csproj.CopyComplete
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.exe
+F:\!WSIZ\Projekt\Kalkulator_stypendium\PunktyStypendium\SredniaSemestralna\obj\Debug\SredniaSemestralna.pdb
